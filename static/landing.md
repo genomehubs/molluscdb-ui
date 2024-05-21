@@ -2,7 +2,7 @@
 
 :::grid{container direction="row" spacing="1"}
 
-::include{pageId=data-summary.md xs=8 className=unpadded}
+::include{pageId=data-summary.md item xs=8 className=unpadded}
 
 ```report
 report: xPerRank
@@ -11,8 +11,31 @@ includeEstimates: true
 result: taxon
 taxonomy: ncbi
 rank: order,family,genus,species
+item: true
 xs: 4
 caption: Numbers of taxa available on MolluscDB
+```
+
+:::
+
+:::grid{container direction="row" spacing="1"}
+
+```report
+report: scatter
+x: "midpoint AND assembly_id=GCA_007844125.1 AND feature_type=mollusca_odb10-busco-gene AND busco_status!=duplicated AND ancestral_unit"
+y: sequence_id
+cat: "ancestral_unit[20]"
+includeEstimates: false
+xOpts: ";;;linear"
+yOpts: ";;15"
+scatterThreshold: -1
+result: feature
+taxonomy: ncbi
+item: true
+xs: 12
+ratio: 2
+colorPalette: plasma:20
+caption: "BUSCO painting of Sinonovacula constricta chromosomes showing assignments of each BUSCO locus to the 20 molluscan ancestral linkage groups"
 ```
 
 :::
@@ -28,6 +51,7 @@ y: mollusca_odb10_complete
 includeEstimates: true
 result: assembly
 taxonomy: ncbi
+item: true
 xs: 4
 caption: Proportion of genome assemblies on MolluscDB with BUSCO completeness above 80% (BUSCOv5; mollusca_odb10)
 ```
@@ -44,6 +68,7 @@ result: assembly
 taxonomy: ncbi
 highlightArea: y=x
 ratio: 2.25
+item: true
 xs: 8
 caption: Relative counts of Metazoa and Mollusca BUSCOs for assemblies on MolluscDB
 ```
@@ -100,9 +125,9 @@ Visit the [templates page](/templates) for more examples.
 
 :::grid{container direction="row" spacing="1"}
 
-::include{pageId=templates/oxfordPlotByTaxon.md xs=6 className=unpadded}
+::include{pageId=templates/oxfordPlotByTaxon.md item xs=6 className=unpadded}
 
-::include{pageId=templates/windowPlotByTaxon.md xs=6 className=unpadded}
+::include{pageId=templates/windowPlotByTaxon.md item xs=6 className=unpadded}
 
 ::grid[&nbsp;&nbsp;more [oxford plot templates](/templates/oxford)]{item xs=6}
 ::grid[&nbsp;&nbsp;more [window-based templates](/templates/windows)]{item xs=6}
@@ -161,6 +186,7 @@ includeEstimates: false
 scatterThreshold: -1
 result: taxon
 taxonomy: ncbi
+item: true
 xs: 12
 ratio: 2
 caption: Mollusca BUSCO counts against assembly span for the classes represented in MolluscDB

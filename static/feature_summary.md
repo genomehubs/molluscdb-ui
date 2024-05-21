@@ -1,0 +1,1 @@
+::recordlink{result=feature url="https://metazoa.ensembl.org/{identifiers[class:ensembl_metazoa_id].identifier}/Info/Index" condition="identifiers[class:ensembl_metazoa_id]" label="Ensembl Metazoa" color=#015365 description="Click to view the primary assembly {assemblyId} in the Ensembl Metazoa Genome Browser"}
