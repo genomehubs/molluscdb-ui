@@ -27,7 +27,7 @@ y: sequence_id
 cat: "ancestral_unit[20]"
 includeEstimates: false
 xOpts: ";;;linear"
-yOpts: ";;15"
+yOpts: "nsort;;15"
 scatterThreshold: -1
 result: feature
 taxonomy: ncbi
