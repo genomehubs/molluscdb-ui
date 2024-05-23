@@ -3,7 +3,7 @@ id: windowPlotByAssembly
 title: Window statistic plot by assembly
 description: |
   Show values of a statistic for windows along each chromosome in an assembly
-valueA_example: GCA_905147045.1
+valueA_example: GCA_964016885.1
 valueA_label: Assembly accession
 valueA_description: |
   Assembly GCA accession

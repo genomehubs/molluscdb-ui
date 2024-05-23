@@ -8,7 +8,7 @@ This example plot shows values of GC in 1Mb windows along the length of each chr
 
 ```report
 report: scatter
-x: midpoint_proportion AND assembly_id=GCA_902806685.1 AND feature_type=window-1000000
+x: midpoint_proportion AND assembly_id=GCA_964016885.1 AND feature_type=window-1000000
 y: gc
 cat: sequence_id[50]
 includeEstimates: true

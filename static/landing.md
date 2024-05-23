@@ -24,7 +24,7 @@ caption: Numbers of taxa available on MolluscDB
 report: scatter
 x: "midpoint AND assembly_id=GCA_007844125.1 AND feature_type=mollusca_odb10-busco-gene AND busco_status!=duplicated AND ancestral_unit"
 y: sequence_id
-cat: "ancestral_unit[20]"
+cat: "ancestral_unit[20]=Moll1,Moll2,Moll3,Moll4,Moll5,Moll6,Moll7,Moll8,Moll9,Moll10,Moll11,Moll12,Moll13,Moll14,Moll15,Moll16,Moll17,Moll18,Moll19,Moll20"
 includeEstimates: false
 xOpts: ";;;linear"
 yOpts: "nsort;;15"
