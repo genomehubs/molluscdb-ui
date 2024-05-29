@@ -1,4 +1,4 @@
-::phylopic{}
+::phylopic{recordId="{assembly_id}"}
 
 ::recordlink{result=taxon rank=species url="https://goat.genomehubs.org/record?recordId={taxon_id}&result=taxon" label="GoaT" color=#31323f description="Click to view in Genomes on a Tree" icon="https://goat.genomehubs.org/apple-touch-icon.png"}
 
