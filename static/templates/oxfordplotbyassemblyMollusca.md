@@ -18,7 +18,7 @@ valueC_description: |
 url:
   path: /search
   query: assembly_id={valueA},{valueB} AND collate(sequence_id,busco_gene) AND feature_type={valueC}-busco-gene AND busco_status!=duplicated AND ancestral_unit
-  cat: "ancestral_unit[20]=Moll1,Moll2,Moll3,Moll4,Moll5,Moll6,Moll7,Moll8,Moll9,Moll10,Moll11,Moll12,Moll13,Moll14,Moll15,Moll16,Moll17,Moll18,Moll19,Moll20"
+  cat: "ancestral_unit[20]=moll1,moll2,moll3,moll4,moll5,moll6,moll7,moll8,moll9,moll10,moll11,moll12,moll13,moll14,moll15,moll16,moll17,moll18,moll19,moll20"
   result: feature
   taxonomy: ncbi
   report: oxford
