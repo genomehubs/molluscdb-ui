@@ -8,8 +8,8 @@ As the distance between species increases for these bivalves, fewer shared genes
 
 ```report
 report: ribbon
-  reorient: true
-  compactLegend: true
+reorient: true
+compactLegend: true
 x: assembly_id=queryA.assembly_id,queryB.assembly_id AND collate(sequence_id,busco_gene) AND feature_type=metazoa_odb10-busco-gene AND busco_status!=duplicated AND ancestral_unit
 queryA: assembly--tax_name(Mytilus edulis)
 queryB: assembly--tax_name(Mytilus coruscus)
@@ -25,8 +25,8 @@ size: 6
 
 ```report
 report: ribbon
-  reorient: true
-  compactLegend: true
+reorient: true
+compactLegend: true
 x: assembly_id=queryA.assembly_id,queryB.assembly_id AND collate(sequence_id,busco_gene) AND feature_type=metazoa_odb10-busco-gene AND busco_status!=duplicated AND ancestral_unit
 queryA: assembly--tax_name(Mytilus edulis)
 queryB: assembly--tax_name(Mytilisepta virgata)
@@ -42,8 +42,8 @@ size: 6
 
 ```report
 report: ribbon
-  reorient: true
-  compactLegend: true
+reorient: true
+compactLegend: true
 x: assembly_id=queryA.assembly_id,queryB.assembly_id AND collate(sequence_id,busco_gene) AND feature_type=metazoa_odb10-busco-gene AND busco_status!=duplicated AND ancestral_unit
 queryA: assembly--tax_name(Mytilus edulis)
 queryB: assembly--tax_name(Crassostrea virginica)
