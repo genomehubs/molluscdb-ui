@@ -18,7 +18,7 @@ caption: Oxford plot of Mytilus edulis and Mytilus coruscus using metazoa BUSCO 
 ratio: 1
 result: feature
 taxonomy: ncbi
-xs: 4
+size: 4
 ```
 
 ```report
@@ -33,7 +33,7 @@ caption: Oxford plot of Mytilus edulis and Mytilisepta virgata using metazoa BUS
 ratio: 1
 result: feature
 taxonomy: ncbi
-xs: 4
+size: 4
 ```
 
 ```report
@@ -48,7 +48,7 @@ caption: Oxford plot of Mytilus edulis and Crassostrea virginica using metazoa B
 ratio: 1
 result: feature
 taxonomy: ncbi
-xs: 4
+size: 4
 ```
 
 :::
@@ -57,16 +57,16 @@ BoaT provides templates to generate Oxford plots based on assembly accessions or
 
 :::grid{container direction="row" spacing="1"}
 
-::include{pageId=templates/oxfordPlotByAssembly.md xs=6}
+::include{pageId=templates/oxfordPlotByAssembly.md size=6}
 
-::include{pageId=templates/oxfordPlotByTaxon.md xs=6}
+::include{pageId=templates/oxfordPlotByTaxon.md size=6}
 
 :::
 
 :::grid{container direction="row" spacing="1"}
 
-::include{pageId=templates/oxfordPlotByAssemblyMollusca.md xs=6}
+::include{pageId=templates/oxfordPlotByAssemblyMollusca.md size=6}
 
-::include{pageId=templates/oxfordPlotByTaxonMollusca.md xs=6}
+::include{pageId=templates/oxfordPlotByTaxonMollusca.md size=6}
 
 :::

@@ -4,6 +4,6 @@ Browse taxa and attribute values across the Tree of life. Click on the tree view
 
 :::grid{container direction=column}
 
-::badge{currentRecordId="6447" result="taxon" rank="order" item xs=12}
+::badge{currentRecordId="6447" result="taxon" rank="order" size=12}
 
 :::

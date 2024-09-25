@@ -19,7 +19,7 @@ scatterThreshold: -1
 pointSize: 15
 result: taxon
 taxonomy: ncbi
-xs: 12
+size: 12
 ``` -->
 
 :::
@@ -28,6 +28,6 @@ MolluscDB provides templates to generate tables of busco counts including lists 
 
 :::grid{container direction="row" spacing="1"}
 
-::include{pageId=templates/buscoStatusList.md xs=6}
+::include{pageId=templates/buscoStatusList.md size=6}
 
 :::

@@ -2,7 +2,7 @@
 
 :::grid{container direction="row" spacing="1"}
 
-::include{pageId=data-summary.md item xs=8 className=unpadded}
+::include{pageId=data-summary.md size=8 className=unpadded}
 
 ```report
 report: xPerRank
@@ -11,8 +11,7 @@ includeEstimates: true
 result: taxon
 taxonomy: ncbi
 rank: order,family,genus,species
-item: true
-xs: 4
+size: 4
 caption: Numbers of taxa available on MolluscDB
 ```
 
@@ -31,8 +30,7 @@ yOpts: "nsort;;15"
 scatterThreshold: -1
 result: feature
 taxonomy: ncbi
-item: true
-xs: 12
+size: 12
 ratio: 2
 colorPalette: plasma:20
 caption: "BUSCO painting of Sinonovacula constricta chromosomes showing assignments of each BUSCO locus to the 20 molluscan ancestral linkage groups"
@@ -51,8 +49,7 @@ y: mollusca_odb10_complete
 includeEstimates: true
 result: assembly
 taxonomy: ncbi
-item: true
-xs: 4
+size: 4
 caption: Proportion of genome assemblies on MolluscDB with BUSCO completeness above 80% (BUSCOv5; mollusca_odb10)
 ```
 
@@ -68,8 +65,7 @@ result: assembly
 taxonomy: ncbi
 highlightArea: y=x
 ratio: 2.25
-item: true
-xs: 8
+size: 8
 caption: Relative counts of Metazoa and Mollusca BUSCOs for assemblies on MolluscDB
 ```
 
@@ -93,8 +89,7 @@ caption: |
   Tree showing BUSCO completeness of taxa in MolluscDB
   based on analyses using the mollusca_odb10 lineage
 ratio: 2.4
-item: true
-xs: 12
+size: 12
 ```
 
 ```report
@@ -111,8 +106,7 @@ caption: |
   Tree showing BUSCO completeness of taxa in MolluscDB
   based on analyses using the metazoa_odb10 lineage
 ratio: 2.4
-item: true
-xs: 12
+size: 12
 ```
 
 :::
@@ -125,12 +119,12 @@ Visit the [templates page](/templates) for more examples.
 
 :::grid{container direction="row" spacing="1"}
 
-::include{pageId=templates/oxfordPlotByTaxon.md item xs=6 className=unpadded}
+::include{pageId=templates/oxfordPlotByTaxon.md size=6 className=unpadded}
 
-::include{pageId=templates/windowPlotByTaxon.md item xs=6 className=unpadded}
+::include{pageId=templates/windowPlotByTaxon.md size=6 className=unpadded}
 
-::grid[&nbsp;&nbsp;more [oxford plot templates](/templates/oxford)]{item xs=6}
-::grid[&nbsp;&nbsp;more [window-based templates](/templates/windows)]{item xs=6}
+::grid[&nbsp;&nbsp;more [oxford plot templates](/templates/oxford)]{size=6}
+::grid[&nbsp;&nbsp;more [window-based templates](/templates/windows)]{size=6}
 
 :::
 
@@ -146,8 +140,7 @@ x: assembly_id=GCA_963676685.2,GCA_017311375.1 AND collate(sequence_id,busco_gen
 ratio: 1.5
 pointSize: 20
 result: feature
-item: true
-xs: 6
+size: 6
 compactWidth: 900
 caption: Oxford plot comparing Metazoa BUSCO genes between two bivalve assemblies,assemblies
 ```
@@ -160,13 +153,12 @@ colorPalette: pride
 ratio: 1.5
 pointSize: 20
 result: feature
-item: true
-xs: 6
+size: 6
 caption: Detailed view of an oxford plot, coloured by ancestral linkage group, highlighting colinearity on two pairs of chromosomes
 ```
 
-::grid{item xs=8}
-::grid[&nbsp;&nbsp;more [examples and templates](/templates/oxford)]{item xs=4}
+::grid{size=8}
+::grid[&nbsp;&nbsp;more [examples and templates](/templates/oxford)]{size=4}
 
 :::
 
@@ -186,13 +178,12 @@ includeEstimates: false
 scatterThreshold: -1
 result: taxon
 taxonomy: ncbi
-item: true
-xs: 12
+size: 12
 ratio: 2
 caption: Mollusca BUSCO counts against assembly span for the classes represented in MolluscDB
 ```
 
-::grid{item xs=8}
-::grid[&nbsp;&nbsp;more [examples and templates](/templates/counts)]{item xs=4}
+::grid{size=8}
+::grid[&nbsp;&nbsp;more [examples and templates](/templates/counts)]{size=4}
 
 :::

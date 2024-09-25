@@ -20,8 +20,7 @@ caption: |
   Tree showing BUSCO completeness of taxa in MolluscDB
   *(BUSCO v5, mollusca_odb10)*"
 ratio: 2
-item: true
-xs: 12
+size: 12
 ```
 
 :::
