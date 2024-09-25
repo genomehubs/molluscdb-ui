@@ -27,6 +27,11 @@ jobs:
           mv files/components/* genomehubs/src/genomehubs-ui/src/client/views/components/
           mv files/html/index.html genomehubs/src/genomehubs-ui/src/client/index.html
       - run: cd genomehubs && ./package-ui.sh
+        env:
+          GH_API_URL: "https://molluscdb.genomehubs.org/api/v2"
+          GH_BASENAME: ""
+          GH_SITENAME: MolluscDB
+          GH_SUGGESTED_TERM: Gastropoda
       - uses: actions/upload-artifact@v3
         with:
           name: molluscdb-ui
