@@ -25,4 +25,6 @@ url:
   result: feature
   taxonomy: ncbi
   report: oxford
+reorient: true
+compactLegend: true
 ```

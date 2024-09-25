@@ -1,6 +1,6 @@
 ```template
-id: oxfordPlotByTaxonMollusca
-title: Oxford plot using Mollusca BUSCO genes assigned to ALGs
+id: ribbonPlotByTaxonMollusca
+title: Ribbon plot using Mollusca BUSCO genes assigned to ALGs
 description: |
   Show locations of all Mollusca BUSCO genes shared between a pair of species, coloured by ancestral linkage group
 valueA_example: Cepaea hortensis
@@ -21,7 +21,7 @@ url:
   yOpts: ";;;;{valueB}"
   result: feature
   taxonomy: ncbi
-  report: oxford
+  report: ribbon
 reorient: true
 compactLegend: true
 ```

@@ -136,6 +136,8 @@ Visit the [templates page](/templates) for more examples.
 
 ```report
 report: oxford
+reorient: true
+compactLegend: true
 x: assembly_id=GCA_963676685.2,GCA_017311375.1 AND collate(sequence_id,busco_gene) AND feature_type=metazoa_odb10-busco-gene AND busco_status!=duplicated
 ratio: 1.5
 pointSize: 20
@@ -147,6 +149,8 @@ caption: Oxford plot comparing Metazoa BUSCO genes between two bivalve assemblie
 
 ```report
 report: oxford
+reorient: true
+compactLegend: true
 x: assembly_id=GCA_963676685.2,GCA_017311375.1 AND collate(sequence_id,busco_gene) AND feature_type=lepidoptera-busco-gene AND sequence_id = LR989906.1,LR990085.1,LR989907.1,LR990083.1
 cat: ancestral_unit
 colorPalette: pride
