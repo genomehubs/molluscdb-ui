@@ -22,6 +22,6 @@ url:
   result: feature
   taxonomy: ncbi
   report: ribbon
-reorient: true
-compactLegend: true
+  reorient: true
+  compactLegend: true
 ```

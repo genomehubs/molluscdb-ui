@@ -15,7 +15,7 @@ includeEstimates: true
 ratio: 2
 scatterThreshold: -1
 pointSize: 15
-compactLegend: true
+  compactLegend: true
 result: feature
 taxonomy: ncbi
 size: 12
