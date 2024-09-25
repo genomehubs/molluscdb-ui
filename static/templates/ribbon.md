@@ -17,10 +17,10 @@ cat: "ancestral_unit[20]=moll1,moll2,moll3,moll4,moll5,moll6,moll7,moll8,moll9,m
 xOpts: ;;;;Mytilus edulis
 yOpts: ;;;;Mytilus coruscus
 caption: Ribbon plot of Mytilus edulis and Mytilus coruscus using metazoa BUSCO genes
-ratio: 1
+ratio: 3
 result: feature
 taxonomy: ncbi
-size: 6
+size: 12
 ```
 
 ```report
@@ -34,10 +34,10 @@ cat: "ancestral_unit[20]=moll1,moll2,moll3,moll4,moll5,moll6,moll7,moll8,moll9,m
 xOpts: ;;;;Mytilus edulis
 yOpts: ;;;;Mytilisepta virgata
 caption: Ribbon plot of Mytilus edulis and Mytilisepta virgata using metazoa BUSCO genes
-ratio: 1
+ratio: 3
 result: feature
 taxonomy: ncbi
-size: 6
+size: 12
 ```
 
 ```report
@@ -51,10 +51,10 @@ cat: "ancestral_unit[20]=moll1,moll2,moll3,moll4,moll5,moll6,moll7,moll8,moll9,m
 xOpts: ;;;;Mytilus edulis
 yOpts: ;;;;Crassostrea virginica
 caption: Ribbon plot of Mytilus edulis and Crassostrea virginica using metazoa BUSCO genes
-ratio: 1
+ratio: 3
 result: feature
 taxonomy: ncbi
-size: 6
+size: 12
 ```
 
 :::
