@@ -21,7 +21,8 @@ jobs:
           node-version: "18"
       - run: npm install -g pkg
       - run: |
-          git clone -b ${{ steps.genomehubs.outputs.release }} https://github.com/genomehubs/genomehubs
+          # git clone -b ${{ steps.genomehubs.outputs.release }} https://github.com/genomehubs/genomehubs
+          git clone -b develop https://github.com/genomehubs/genomehubs
           mv static/* genomehubs/src/genomehubs-ui/src/client/static/
           mv files/favicon/* genomehubs/src/genomehubs-ui/src/client/favicon/
           mv files/components/* genomehubs/src/genomehubs-ui/src/client/views/components/
